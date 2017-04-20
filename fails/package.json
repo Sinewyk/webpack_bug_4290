@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "webpack": "^2.4.1"
+  },
+    "scripts": {
+        "postinstall": "webpack --target='node' --entry=./index.js --output-filename=build.js && node build.js"
+    }
+}
